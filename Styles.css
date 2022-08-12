@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* width will take into account padding in pixel counts */
+    font-family: 'Noto Serif HK', serif;
+    color: #777;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 250, 238, 0.144);
+}
+
+
+.main-header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+    background-image: url("images/Trees1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.main-title {
+    color: antiquewhite;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline-block;
+    
+}
+
+.nav a {
+    padding-right: .750em;
+    color: antiquewhite;
+    text-decoration:none;
+    /* text-decoration removes the line under the links*/ 
+}
+
+.nav a:hover {
+    background-color: rgba(200, 200, 200, .6);
+    /* color:rgb(50, 50, 50); */
+}
+
+.main-nav {
+    border-top: 1px solid rgba(200, 200, 200, 0.411);
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: lighter;
+    padding-top: 1%;
+}
+
+.band-name {
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: antiquewhite;
+}
+
+.band-name-large {
+    font-size: 6em;
+}
+
+.content-section {
+    margin: 1em;
+    padding-bottom: 2em;
+    /* background-color: rgba(255, 250, 238, 0.541); */
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.section-header{
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float:inline-start;
+    margin: 15px;
+    width: 40%;
+    border-radius: 50%;
+}
+
+p {
+    margin-bottom: 10px;
+}
